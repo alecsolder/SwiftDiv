@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\libs\urlimageviewhelper-1.0.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67125d743e0035a1b157ba8210c2abf1ff374e10">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\urlimageviewhelper-1.0.4-484c32702b3a0127b39b5750ba1348fac2302d67.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\Boilermake\ClientLib\unspecified\jars\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\gson-2.3.1-498d82d0008b6a84552605a93c9fcb3e02a126a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\internal_impl-23.0.1-a7209bd7cc755870ef6c72d2d5cce6364f6c1ba4.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\classes-6c780762ecb9c248474e9d56ddc8617ee355640a.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\picasso-2.5.2-fda31533bb4cb829b6247331c9aee695dd74f2d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\Boilermake\ClientLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1202a0e80ca09b829780511d2ad84cbc5f2e9443">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\classes-d42c29975fbf7c137979672482a65addaa1e4940.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1-a6ba2c94388d979a9657613187c34a820a3d4a21.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\Boilermake\ClientLib\unspecified\jars\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\commons-io-2.4-4685c2ea501bbd1bd2399ca3bf639649912ac1eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\libs\commons-httpclient-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d6364bcc1b2b2aa69d008602d36a700453648560">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\commons-httpclient-3.0.1-c38a717b4958c2c890af3fd261c7cebf37cb15aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\AlecSolder\AndroidStudioProjects\Boilermake\app\build\intermediates\pre-dexed\release\classes-928b594afd73fd34797bf0b597460076d3db9be0.jar" />
+    </item>
+
+</items>

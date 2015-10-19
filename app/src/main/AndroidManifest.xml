@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="valec.boilermake" >
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <!--<data android:host="www.swiftdiv.me" />-->
+                <!--<data android:scheme="https" />-->
+                <!--<data android:scheme="http" />-->
+                <!--<data android:pathPattern="/*" />-->
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SliceActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <!--<data android:host="www.swiftdiv.me" />-->
+                <!--<data android:scheme="https" />-->
+                <!--<data android:scheme="http" />-->
+                <!--<data android:pathPattern="/*" />-->
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".DivActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <!--<data android:host="www.swiftdiv.me" />-->
+                <!--<data android:scheme="https" />-->
+                <!--<data android:scheme="http" />-->
+                <!--<data android:pathPattern="/*" />-->
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+
+        </activity>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity$PlaceholderFragment"
+                android:background="@drawable/divpg2">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Cost"
+        android:id="@+id/tot_cost"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/section_label"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Each person pays: "
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:layout_below="@+id/section_label"
+        android:id="@+id/textView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="$"
+        android:id="@+id/split_cost"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:layout_below="@+id/section_label"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/charge2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendIt"/>
+
+    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:id="@+id/autocomplete_friend1"
+                          android:layout_width="500px"
+                          android:layout_marginTop="325px"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentTop="true"
+                          android:layout_centerHorizontal="true"/>
+    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:id="@+id/autocomplete_friend2"
+                          android:layout_width="500px"
+                          android:layout_marginTop="450px"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentTop="true"
+                          android:layout_alignLeft="@+id/autocomplete_friend3"
+                          android:layout_alignStart="@+id/autocomplete_friend3"/>
+    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:id="@+id/autocomplete_friend3"
+                          android:layout_width="500px"
+                          android:layout_marginTop="575px"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentTop="true"
+                          android:layout_alignLeft="@+id/autocomplete_friend1"
+                          android:layout_alignStart="@+id/autocomplete_friend1"/>
+    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:id="@+id/autocomplete_friendTest"
+                          android:layout_width="500px"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentBottom="true"
+                          android:layout_alignLeft="@+id/textView"
+                          android:layout_alignStart="@+id/textView"
+                          android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_above="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ref3"
+        android:onClick="compute"/>
+
+</RelativeLayout>

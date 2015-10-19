@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity$PlaceholderFragment"
+                android:background="@drawable/tab2">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split the bill with Venmo!"
+        android:id="@+id/button3"
+        android:onClick="getPurchases"
+        android:background="@drawable/ref3"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/section_label"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Cost"
+        android:id="@+id/tot_cost"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/item_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"/>
+    <!--android:background="@drawable/slice"-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_pic"
+
+        android:layout_below="@+id/item_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="500px"
+        android:maxWidth="500px"
+        android:minHeight="250px"
+        android:minWidth="250px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Item Descript"
+        android:id="@+id/item_desc"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/divbutton3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="EDivIt"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:onClick="decPurchase"
+        android:background="@drawable/left"
+        android:layout_alignBottom="@+id/item_pic"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button5"
+        android:onClick="incPurchase"
+        android:background="@drawable/right"
+        android:layout_alignBottom="@+id/item_pic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>
